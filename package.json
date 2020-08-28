@@ -6,7 +6,8 @@
   "author": "1shenxi",
   "license": "MIT",
   "scripts": {
-    "dev": "hs ./ -c-1"
+    "dev": "hs ./ -c-1",
+    "compile": "babel src/* -d lib/"
   },
   "dependencies": {
     "react": "^16.13.1",
