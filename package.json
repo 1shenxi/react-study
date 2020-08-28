@@ -1,0 +1,18 @@
+{
+  "name": "react-study",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:1shenxi/react-study.git",
+  "author": "1shenxi",
+  "license": "MIT",
+  "scripts": {
+    "dev": "hs ./ -c-1"
+  },
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "http-server": "^0.12.3"
+  }
+}
