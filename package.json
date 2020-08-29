@@ -7,13 +7,16 @@
   "license": "MIT",
   "scripts": {
     "dev": "hs ./ -c-1",
-    "compile": "babel src/* -d lib/"
+    "compile": "babel -w --presets @babel/preset-react src/compiler.js -d lib/"
   },
   "dependencies": {
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
   "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.11.4",
+    "@babel/preset-react": "^7.10.4",
     "http-server": "^0.12.3"
   }
 }
