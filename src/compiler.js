@@ -28,6 +28,7 @@
   // );
   const virtualDom = (
     <div className="parent">
+      我是parent
       <div className="child">我是child1</div>
       <div className="child">我是child2</div>
       <div className="child">我是child3</div>
