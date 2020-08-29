@@ -49,7 +49,7 @@
       return <div>VitrualClassComponent</div>
     }
   }
-  ReactDOM.render(e(VitrualClassComponent), document.querySelector('#root1-compiler'));
+  ReactDOM.render(<VitrualClassComponent />, document.querySelector('#root1-compiler'));
 
   // 3. functionComponent
   // function VitrualFunctionComponent() {
@@ -60,7 +60,7 @@
   function VitrualFunctionComponent() {
     return <div>VitrualFunctionComponent</div>
   }
-  ReactDOM.render(e(VitrualFunctionComponent), document.querySelector('#root2-compiler'));
+  ReactDOM.render(<VitrualFunctionComponent />, document.querySelector('#root2-compiler'));
 
   /**
    * 可以对比 `lib/compiler.js` 中编译后的代码，发现和之前的写法是一模一样。
