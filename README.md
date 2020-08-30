@@ -1,5 +1,6 @@
-# 四、事件处理
+# 六、列表渲染
 
 ## Changed:
-- 使用 `concurrently` 启动 `http-server` 服务 和 `babel` 的编译服务。（参考 `package.json` 中的 `scripts` 中的变化）
-- 加入 `babel-plugin-transform-class-properties` 插件支持 `public class fields` 语法
+- 换成开发环境的包。
+
+突然意识到犯了一个错，应该使用开发环境的包，会有一些警告性的错误提示，从而告知一些原因。生产环境会屏蔽掉这些错误。例如，列表渲染应该使用 key
