@@ -1,4 +1,7 @@
 {
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
   "todohighlight.isEnable": true,
   "todohighlight.isCaseSensitive": true,
   "todohighlight.keywords": [

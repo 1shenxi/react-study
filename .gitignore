@@ -1,4 +1,11 @@
 node_modules
 
+# lock
 package-lock.json
 yarn.lock
+
+#error
+yarn-error.log
+
+# production
+dist
