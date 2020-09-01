@@ -1,6 +1,3 @@
-# React 学习大全
+# 一、React.Component & React.createElement & ReactDOM.render
 
-## 通过按分支的方式提交学习
-
-开发地址:
-http://[host]:[port]/public
+[测试案例](https://github.com/1shenxi/react-study/blob/1-React.Component%26React.createElement/src/index.js)
