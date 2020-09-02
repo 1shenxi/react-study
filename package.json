@@ -8,9 +8,11 @@
   "scripts": {
     "dev": "node build/webpack.dev.js",
     "watch": "node build/webpack.dev.js --watch -w",
-    "build": "node build/webpack.prod.js"
+    "build": "node build/webpack.prod.js",
+    "compile": "babel src -d lib"
   },
   "dependencies": {
+    "core-js": "3",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
